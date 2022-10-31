@@ -1,0 +1,22 @@
+.arrivals-container{
+    width: 1256px;
+    height: 475px;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+.card{
+    display: flex;
+    gap: 39px;
+    margin: 0 auto;
+    margin-top: 23.75px;
+}
+
+.arrivals-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    color: var(--dark);
+}
