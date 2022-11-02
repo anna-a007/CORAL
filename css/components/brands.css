@@ -1,0 +1,32 @@
+.brands{
+    margin-top: 67px;
+}
+
+.brands-container{
+    width: 1239px;
+    height: 236px;
+}
+
+.brands-container__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    color: var(--dark);
+}
+
+.brands-item{
+    display: flex;
+    gap: 46px;
+    margin-top: 24px;
+}
+
+.brands-item__logo{
+    width: 168px;
+    height: 168px;
+}
+
+.brands-img{
+    
+}

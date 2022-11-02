@@ -1,8 +1,11 @@
+.arrivals{
+    margin-top: 74px;
+}
+
 .arrivals-container{
     width: 1256px;
     height: 475px;
     margin: 0 auto;
-    margin-top: 74px;
 }
 
 .card{

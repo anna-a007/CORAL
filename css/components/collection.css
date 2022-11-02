@@ -11,9 +11,12 @@
     justify-content: center;
 }
 
+.collection-item__card{
+    position: relative;
+}
+
 .collection-item__img{
     border-radius: 16px;
-    /* position: relative; */
 }
 
 .collection-container__title{
@@ -42,8 +45,8 @@
     font-size: 24px;
     line-height: 32px;
     color: var(--type-high-emphasis);
-    /* position: absolute;
-    top: 0;
-    right: 0; */
+    position: absolute;
+    top: 233px;
+    left: 16px;
 }
-/* добавить в main
+
