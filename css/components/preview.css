@@ -1,0 +1,33 @@
+.preview{
+    margin: 0 auto;
+    margin-top: 68px;
+    width: 1240px;
+    height: 668px;
+}
+
+.preview-container{
+    display: grid;
+    grid-template-areas:
+      "previev-block-1 previev-block-1"
+      "previev-block-2 previev-block-3";
+      grid-gap: 32px;
+  }
+
+  .previev-block-1 {
+    grid-area: previev-block-1;
+    width: 1240px;
+    height: 400px;
+  }
+  
+  .previev-block-2 {
+    grid-area: previev-block-2;
+    width: 604px;
+    height: 228px;
+  }
+  
+  .previev-block-3 {
+    grid-area: previev-block-3;
+    width: 604px;
+    height: 228px;
+  }
+  

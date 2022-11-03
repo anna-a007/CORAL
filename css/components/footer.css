@@ -61,6 +61,7 @@
 .footer-elements{
     width: 329px;
     height: 114px;
+    margin-top: 17px;
 }
 
 .footer-elements__icon{
@@ -74,6 +75,8 @@
     display: flex;
     gap: 8px;
     justify-content: flex-end;
+    padding-top: 26px;
+    align-items: center;
 }
 
 .footer-elements__location-paragraph{
@@ -92,4 +95,12 @@
     font-size: 14px;
     line-height: 18px;
     color: var(--light-text);
+}
+
+.footer-elements__text{
+    padding-top: 8px;
+}
+
+.footer-elements__text-paragraph{
+    text-align: end;
 }
