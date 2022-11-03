@@ -8,6 +8,8 @@
 @import url('../css/components/arrivals.css');
 @import url('../css/components/collection.css');
 @import url('../css/components/brands.css');
+@import url('../css/components/footer.css');
+@import url('../css/components/adaptive/header-ad.css');
 
 
 * {
@@ -36,5 +38,9 @@
 .main {
     flex: 1 1 auto;
     margin: 0 auto;   
+}
+
+.none {
+    display: none;
 }
 

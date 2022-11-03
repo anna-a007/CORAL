@@ -25,8 +25,12 @@
 .brands-item__logo{
     width: 168px;
     height: 168px;
+    background: var(--accent);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.brands-img{
-    
-}
+
+
