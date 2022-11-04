@@ -1,0 +1,36 @@
+@media(max-width:1180px) {
+    .infostatus-container{
+        padding-left: 130px;
+    }
+}
+
+@media(max-width:1030px) {
+    .infostatus-container{
+        padding-left: 70px;
+    }
+}
+
+@media(max-width:900px) {
+    .infostatus-container{
+        padding-left: 50px;
+    }
+
+    .infostatus{
+        height: 30px;
+        line-height: 14px;
+        text-align: center;
+    } 
+}
+
+@media(max-width:769px) {
+    .infostatus-container{
+        padding-left: 20px;
+        padding-top: 10px;
+    }   
+}
+
+@media(max-width:600px) {
+    .infostatus{
+        display: none;
+    }   
+}

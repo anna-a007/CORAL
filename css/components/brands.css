@@ -5,6 +5,7 @@
 .brands-container{
     width: 1239px;
     height: 236px;
+    margin: 0 auto;
 }
 
 .brands-container__title{
