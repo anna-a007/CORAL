@@ -8,10 +8,11 @@
 .header-container{
     display: flex;
     max-width: 1240px;
-    height: 44px;
+    /* height: 44px; */
     padding: 0px 5px;
-    margin: 18px 20px;
     align-items: center;
+    padding-top: 18px;
+    padding-bottom: 20px;
     
 }
 
@@ -37,6 +38,12 @@
     font-size: 14px;
     line-height: 18px;
     color: var(--type-high-emphasis);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-menu__list-item:hover{
+    color: red
 }
 
 .search-form{
@@ -72,6 +79,10 @@
     margin-left: 24px;
 }
 
-.header-container__mobile{
+.header-container__mobile-icon{
+    display: none;
+}
+
+.mobile-header__burger, .mobile-header__title, .header-container__mobile-logo{
     display: none;
 }

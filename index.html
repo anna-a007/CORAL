@@ -1,310 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>CORAL</title>
 </head>
+
 <body>
-    
-<div class="wrapper">
-    <header class="header">
-        <div class="header-container">
-            <div class="header-container__logo">
-                <img src="./img/header/logo.svg" alt="logo">
-            </div>
-            <nav class="header-container__nav nav-menu">
-                <ul class="nav-menu__list">
-                    <li class="nav-menu__list-item" ><a href="#"></a>Handbags</li>
-                    <li class="nav-menu__list-item"><a href="#"></a>Watches</li>
-                    <li class="nav-menu__list-item"><a href="#"></a>Skincare</li>
-                    <li class="nav-menu__list-item"><a href="#"></a>Jewellery</li>
-                    <li class="nav-menu__list-item"><a href="#"></a>Apparels</li>
-                </ul>
-    
-            </nav>
-            <form class="header-container__search search-form" action="#">
-                <button type="submit" class="search-form__button">
-                    <img src="./img/header/search.svg" alt="">
-                </button>
-                <input type="text" class="search-form__input" placeholder="Search for products or brands.....">
-            </form>
-            <div class="header-container__icon">
-                <a href="#">
-                    <img src="./img/header/wishlist.svg" alt="wishlist">
-                </a>
-                <a href="#">
-                    <img src="./img/header/profile.svg" alt="profile">
-                </a>
-                <a href="#">
-                    <img src="./img/header/bag.svg" alt="bag">
-                </a> 
-            </div>
-            <!-- Mobile header -->
-            <div class="header-container__mobile">
-                <a href="#">
-                    <img src="./img/adaptive/header-ad/add-to-homescreen.svg" alt="homescreen">
-                </a>
-                <a href="#">
-                    <img src="./img/adaptive/header-ad/search.svg" alt="search">
-                </a>
-                <a href="#">
-                    <img src="./img/adaptive/header-ad/notification.svg" alt="notification">
-                </a> 
-            </div>
-        </div>
-    </header>
 
-
-    <main class="main">
-        <section class="infostatus">
-            <div class="infostatus-container">
-                <p class="infostatus-container__paragraph" >We are currently experiencing local customs clearance delays. For the latest updates, please check your order status <a href="#">here</a></p>
-            </div>
-        </section>
-        <section class="banner">
-            <div class="banner-container">
-                <img class="banner-container__image" src="./img/header/image.jpg" alt="banner">
-                <img class="banner-container__image-2" src="./img/adaptive/funk.jpg" alt="banner">
-                <div class="banner-container__info info">
-                    <h2 class="info-caption">Carry your Funk</h2>
-                    <p class="info-paragraph">Trendy handbags collection for your party animal</p>
-                    <a class="info-link" href="#">See more</a>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container">
+                <div class="header-container__logo">
+                    <img src="./img/header/logo.svg" alt="logo">
                 </div>
-    
-            </div>
-    
-        </section>
-        <section class="arrivals">
-            <div class="arrivals-container">
-                <div class="arrivals-data">
-                    <h2 class="arrivals-title">New Arrivals</h2>
-                    <a class="arrivals-link" href="#"><p>View All</p></a>
+                <!-- Mobile header burger-->
+                <div class="header-container__mobile-header mobile-header">
+                    <button class="mobile-header__burger">
+                        <img src="./img/adaptive/header-ad/leading-icon.svg" alt="leading-icon">
+                    </button>
+                    <div class="mobile-header__title">Home</div>
                 </div>
-                <div class="arrivals-card card">
-                    <div class="card-product">
-                        <a class="card-product__item" href="#"><img src="./img/new_arrivals/grande.jpg" alt="grande">
-                            <div class="card-product__item comon">
-                                <div class="card-product__description description ">
-                                    <h4 class="description-brand">Grande</h4>
-                                    <p class="description-specification">Blossom Pouch</p>
-                                    <p class="description-price">$39.49</p>
-                                </div>
-                                <div class="card-product__wishlist">
-                                    <img src="./img/new_arrivals/wish.svg" alt="wishlist">
-                                </div>
-                            </div>
-                        </a> 
-                    </div>
-                    <div class="card-product">
-                        <a class="card-product__item" href="#"><img src="./img/new_arrivals/coach.jpg" alt="coach">
-                            <div class="card-product__item comon">
-                                <div class="card-product__description description ">
-                                    <h4 class="description-brand">Coach</h4>
-                                    <p class="description-specification">Leather Coach Bag</p>
-                                    <p class="description-price">$54.69</p>
-                                </div>
-                                <div class="card-product__wishlist">
-                                    <img src="./img/new_arrivals/wish.svg" alt="wishlist">
-                                </div>
-                            </div>
-                        </a>                      
-                    </div>
-                    <div class="card-product">
-                        <a class="card-product__item" href="#"><img src="./img/new_arrivals/remus.jpg" alt="remus">
-                            <div class="card-product__item comon">
-                                <div class="card-product__description description ">
-                                    <h4 class="description-brand">Remus</h4>
-                                    <p class="description-specification">Brown Strap Bag</p>
-                                    <p class="description-price">$57.00</p>
-                                </div>
-                                <div class="card-product__wishlist">
-                                    <img src="./img/new_arrivals/wish.svg" alt="wishlist">
-                                </div>
-                            </div>
-                        </a> 
-                    </div>
-                    <div class="card-product">
-                        <a class="card-product__item" href="#"><img src="./img/new_arrivals/boujee.jpg" alt="boujee">
-                            <div class="card-product__item comon">
-                                <div class="card-product__description description ">
-                                    <h4 class="description-brand">Boujee</h4>
-                                    <p class="description-specification">Black Bag</p>
-                                    <p class="description-price">$56.49</p>
-                                </div>
-                                <div class="card-product__wishlist">
-                                    <img src="./img/new_arrivals/wish.svg" alt="wishlist">
-                                </div>
-                            </div>
-                        </a> 
-                    </div>
+                <!-- Mobile header logo-->
+                <div class="header-container__mobile-logo">
+                    <img src="./img/header/logo.svg" alt="logo">
                 </div>
-            </div>
-        </section>
-        <section class="collection">
-            <div class="collection-container">
-                <h2 class="collection-container__title">Handpicked Collections</h2>
-                <div class="collection-container__item collection-item">
-                    <div class="collection-item__card">
-                        <a class="collection-item__card-link" href="#">
-                            <img class="collection-item__img" src="./img/handpicked_collections/personal_care.jpg" alt="personal_care">
-                            <p class="collection-item__paragraph">Personal Care</p>
-                        </a>
-                    </div>
-                    <div class="collection-item__card">
-                        <a class="collection-item__card-link"href="#">
-                            <img class="collection-item__img" src="./img/handpicked_collections/handbags.jpg" alt="handbags">
-                            <p class="collection-item__paragraph">Handbags</p>
-                        </a>
-                    </div>
-                    <div class="collection-item__card">
-                        <a class="collection-item__card-link" href="#">
-                            <img class="collection-item__img" src="./img/handpicked_collections/wrist_watches.jpg" alt="wrist_watches">
-                            <p class="collection-item__paragraph">Wrist watches</p>
-                        </a>
-                    </div>
-                    <div class="collection-item__card">
-                        <a class="collection-item__card-link" href="#">
-                            <img class="collection-item__img" src="./img/handpicked_collections/sun_glasses.jpg" alt="sun_glasses">
-                            <p class="collection-item__paragraph">Sun Glasses</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="brands">
-            <div class="brands-container">
-                <h2 class="brands-container__title">Shop by Brands</h2>
-                <div class="brands-container__item brands-item">
-                    <a class="brands-item__logo" href="#">
-                        <div>
-                            <img class="brands-img" src="./img/shop_brands/Zara.svg" alt="zara">
-                        </div>
-                    </a>
-                    
-                    <a class="brands-item__logo" href="#">
-                        <div>
-                            <img class="brands-img" src="./img/shop_brands/Dolce_&_Gabbana.svg" alt="Dolce_&_Gabbana">
-                        </div>
-                    </a>
-
-                    <a class="brands-item__logo" href="#">
-                        <div>
-                            <img class="brands-img" src="./img/shop_brands/H&M.svg" alt="H&M">
-                        </div>
-                    </a>
-
-                    <a class="brands-item__logo" href="#">
-                        <div>
-                            <img class="brands-img" src="./img/shop_brands/Chanel.svg" alt="Chanel">
-                        </div>
-                    </a>
-
-                    <a class="brands-item__logo" href="#">
-                        <div >
-                            <img class="brands-img" src="./img/shop_brands/Prada.svg" alt="Prada">
-                        </div>
-                    </a>
-
-                    <a class="brands-item__logo"href="#">
-                        <div>
-                            <img class="brands-img" src="./img/shop_brands/Biba.svg" alt="Biba">
-                        </div>
-                    </a>
-    
-
-
-                </div>
-            </div>
-        </section>
-        <section class="preview">
-            <div class="preview-container">
-                <div class="preview-block-1">
+                <!-- Mobile header icon-->
+                <div class="header-container__mobile-icon">
                     <a href="#">
-                        <img class="preview-image__block-1" src="./img/preview/makeup_accessories.jpg" alt="makeup_accessories">
-                        <p class="preview-block-1__paragraph" >LIFESTYLE</p>
-                        <h2 class="preview-block-1__title">Makeup Accessories from Top Brands</h2>
+                        <img src="./img/adaptive/header-ad/add-to-homescreen.svg" alt="homescreen">
                     </a>
-                </div>
-                <div class="preview-block-2">
                     <a href="#">
-                        <img class="preview-image__block-2" src="./img/preview/skincare.jpg" alt="skincare">
-                        <h2 class="preview-block-2__title">Skincare Essentials</h2>
-                        <img class="preview-block-2__arrow" src="./img/preview/arrow-right.svg" alt="arrow-right">
+                        <img src="./img/adaptive/header-ad/search.svg" alt="search">
                     </a>
-                </div>
-                <div class="preview-block-3">
                     <a href="#">
-                        <img class="preview-image__block-3" src="./img/preview/facepacks.jpg" alt="facepacks">
-                        <h2 class="preview-block-3__title">Facepacks & Peels</h2>
-                        <img class="preview-block-3__arrow" src="./img/preview/arrow-right-bl.svg" alt="arrow-right">
+                        <img src="./img/adaptive/header-ad/notification.svg" alt="notification">
                     </a>
                 </div>
-            </div>
-        </section>
-    </main>
-
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-container__elements footer-lists ">
-                <div class="footer-lists__category footer-category">
-                    <h3 class="footer-category__title footer-title">Shop by Category</h3>
-                    <ul class="footer-category__list footer-list">
-                        <li class="footer-category__list-item footer-item">Skincare</li>
-                        <li class="footer-category__list-item footer-item">Personal Care</li>
-                        <li class="footer-category__list-item footer-item">Handbags</li>
-                        <li class="footer-category__list-item footer-item">Apparels</li>
-                        <li class="footer-category__list-item footer-item">Watches</li>
-                        <li class="footer-category__list-item footer-item">Eye Wear</li>
-                        <li class="footer-category__list-item footer-item">Jewellery</li>
+                <nav class="header-container__nav nav-menu">
+                    <ul class="nav-menu__list">
+                        <li class="nav-menu__list-item"><a href="#"></a>Handbags</li>
+                        <li class="nav-menu__list-item"><a href="#"></a>Watches</li>
+                        <li class="nav-menu__list-item"><a href="#"></a>Skincare</li>
+                        <li class="nav-menu__list-item"><a href="#"></a>Jewellery</li>
+                        <li class="nav-menu__list-item"><a href="#"></a>Apparels</li>
                     </ul>
+
+                </nav>
+                <form class="header-container__search search-form" action="#">
+                    <button type="submit" class="search-form__button">
+                        <img src="./img/header/search.svg" alt="">
+                    </button>
+                    <input type="text" class="search-form__input" placeholder="Search for products or brands.....">
+                </form>
+                <div class="header-container__icon">
+                    <a href="#">
+                        <img src="./img/header/wishlist.svg" alt="wishlist">
+                    </a>
+                    <a href="#">
+                        <img src="./img/header/profile.svg" alt="profile">
+                    </a>
+                    <a href="#">
+                        <img src="./img/header/bag.svg" alt="bag">
+                    </a>
                 </div>
 
-                <div class="footer-lists__about footer-about">
-                    <h3 class="footer-about__title footer-title">About</h3>
-                    <ul class="footer-about__list footer-list">
-                        <li class="footer-about__list-item footer-item">Contact Us</li>
-                        <li class="footer-about__list-item footer-item">About Us</li>
-                        <li class="footer-about__list-item footer-item">Careers</li>
-                        <li class="footer-about__list-item footer-item">Press</li>
-                    </ul>
-                </div>
-
-                <div class="footer-lists__policy footer-policy">
-                    <h3 class="footer-policy__title footer-title">Policy</h3>
-                    <ul class="footer-policy__list footer-list">
-                        <li class="footer-policy__list-item footer-item">Return Policy</li>
-                        <li class="footer-policy__list-item footer-item">Terms of Use</li>
-                        <li class="footer-policy__list-item footer-item">Sitemap</li>
-                        <li class="footer-policy__list-item footer-item">Security</li>
-                        <li class="footer-policy__list-item footer-item">Privacy</li>
-                        <li class="footer-policy__list-item footer-item">EPR Compliance</li>
-                    </ul>
-                </div>
             </div>
+        </header>
 
-            <div class="footer-container__elements footer-elements">
-                <div class="footer-elements__icon">
-                    <img src="./img/footer/fb.svg" alt="facebook">
-                    <img src="./img/footer/insta.svg" alt="instagram">
-                    <img src="./img/footer/twitter.svg" alt="twitter">
-                    <img src="./img/footer/youtube.svg" alt="youtube">
+
+        <main class="main">
+            <section class="infostatus">
+                <div class="infostatus-container">
+                    <p class="infostatus-container__paragraph">We are currently experiencing local customs clearance
+                        delays. For the latest updates, please check your order status <a href="#">here</a></p>
                 </div>
-                <div class="footer-elements__location">
-                    <img src="./img/footer/location.svg" alt="location">
-                    <p class="footer-elements__location-paragraph">United States</p>
+            </section>
+            <section class="banner">
+                <div class="banner-container">
+                    <img class="banner-container__image" src="./img/header/image.jpg" alt="banner">
+                    <img class="banner-container__image-2" src="./img/adaptive/funk.jpg" alt="banner">
+                    <div class="banner-container__info info">
+                        <h2 class="info-caption">Carry your Funk</h2>
+                        <p class="info-paragraph">Trendy handbags collection for your party animal</p>
+                        <a class="info-link" href="#">See more</a>
+                    </div>
                 </div>
-                <div class="footer-elements__text">
-                    <p class="footer-elements__text-paragraph">© 2021 | Cora Leviene All Rights Reserved</p>
+            </section>
+            <section class="arrivals">
+                <div class="arrivals-container">
+                    <div class="arrivals-data">
+                        <h2 class="arrivals-title">New Arrivals</h2>
+                        <div class="arrivals-block">
+                            <a class="arrivals-link" href="#">
+                                <p>View All</p>
+                            </a>
+                            <img class="arrivals-link__img" src="./img/new_arrivals/chevron-right.svg"
+                                alt="chevron-right">
+                        </div>
+                    </div>
+
+                    <div class="swiper-container swiper-one">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/grande.jpg" alt="grande">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Grande</h4>
+                                                <p class="description-specification">Blossom Pouch</p>
+                                                <p class="description-price">$39.49</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/coach.jpg" alt="coach">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Coach</h4>
+                                                <p class="description-specification">Leather Coach Bag</p>
+                                                <p class="description-price">$54.69</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/remus.jpg" alt="remus">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Remus</h4>
+                                                <p class="description-specification">Brown Strap Bag</p>
+                                                <p class="description-price">$57.00</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/boujee.jpg" alt="boujee">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Boujee</h4>
+                                                <p class="description-specification">Black Bag</p>
+                                                <p class="description-price">$56.49</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/grande.jpg" alt="grande">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Grande</h4>
+                                                <p class="description-specification">Blossom Pouch</p>
+                                                <p class="description-price">$39.49</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/coach.jpg" alt="coach">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Coach</h4>
+                                                <p class="description-specification">Leather Coach Bag</p>
+                                                <p class="description-price">$54.69</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/remus.jpg" alt="remus">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Remus</h4>
+                                                <p class="description-specification">Brown Strap Bag</p>
+                                                <p class="description-price">$57.00</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <a class="card-product__item" href="#"><img class="card-product__img"
+                                            src="./img/new_arrivals/boujee.jpg" alt="boujee">
+                                        <div class="card-product__item comon">
+                                            <div class="card-product__description description ">
+                                                <h4 class="description-brand">Boujee</h4>
+                                                <p class="description-specification">Black Bag</p>
+                                                <p class="description-price">$56.49</p>
+                                            </div>
+                                            <div class="card-product__wishlist">
+                                                <img src="./img/new_arrivals/wish.svg" alt="wishlist">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+            <section class="collection">
+                <div class="collection-container">
+                    <h2 class="collection-container__title">Handpicked Collections</h2>
+                    <div class="collection-container__item collection-item">
+                        <div class="collection-item__card">
+                            <a class="collection-item__card-link" href="#">
+                                <p class="collection-item__paragraph">Personal Care</p>
+                                <img class="collection-item__img" src="./img/handpicked_collections/personal_care.jpg"
+                                    alt="personal_care">
+                                
+                            </a>
+                        </div>
+                        <div class="collection-item__card">
+                            <a class="collection-item__card-link" href="#">
+                                <img class="collection-item__img" src="./img/handpicked_collections/handbags.jpg"
+                                    alt="handbags">
+                                <p class="collection-item__paragraph">Handbags</p>
+                            </a>
+                        </div>
+                        <div class="collection-item__card">
+                            <a class="collection-item__card-link" href="#">
+                                <img class="collection-item__img" src="./img/handpicked_collections/wrist_watches.jpg"
+                                    alt="wrist_watches">
+                                <p class="collection-item__paragraph">Wrist watches</p>
+                            </a>
+                        </div>
+                        <div class="collection-item__card">
+                            <a class="collection-item__card-link" href="#">
+                                <img class="collection-item__img" src="./img/handpicked_collections/sun_glasses.jpg"
+                                    alt="sun_glasses">
+                                <p class="collection-item__paragraph">Sun Glasses</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="brands none">
+                <div class="brands-container">
+                    <h2 class="brands-container__title">Shop by Brands</h2>
+                    <div class="brands-container__item brands-item">
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/Zara.svg" alt="zara">
+                            </div>
+                        </a>
+
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/Dolce_&_Gabbana.svg"
+                                    alt="Dolce_&_Gabbana">
+                            </div>
+                        </a>
+
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/H&M.svg" alt="H&M">
+                            </div>
+                        </a>
+
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/Chanel.svg" alt="Chanel">
+                            </div>
+                        </a>
+
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/Prada.svg" alt="Prada">
+                            </div>
+                        </a>
+
+                        <a class="brands-item__logo" href="#">
+                            <div>
+                                <img class="brands-img" src="./img/shop_brands/Biba.svg" alt="Biba">
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </section>
+            <section class="preview none">
+                <div class="preview-container">
+                    <div class="preview-block-1">
+                        <a href="#">
+                            <img class="preview-image__block-1" src="./img/preview/makeup_accessories.jpg"
+                                alt="makeup_accessories">
+                            <p class="preview-block-1__paragraph">LIFESTYLE</p>
+                            <h2 class="preview-block-1__title">Makeup Accessories from Top Brands</h2>
+                        </a>
+                    </div>
+                    <div class="preview-block-2">
+                        <a href="#">
+                            <img class="preview-image__block-2" src="./img/preview/skincare.jpg" alt="skincare">
+                            <h2 class="preview-block-2__title">Skincare Essentials</h2>
+                            <img class="preview-block-2__arrow" src="./img/preview/arrow-right.svg" alt="arrow-right">
+                        </a>
+                    </div>
+                    <div class="preview-block-3">
+                        <a href="#">
+                            <img class="preview-image__block-3" src="./img/preview/facepacks.jpg" alt="facepacks">
+                            <h2 class="preview-block-3__title">Facepacks & Peels</h2>
+                            <img class="preview-block-3__arrow" src="./img/preview/arrow-right-bl.svg"
+                                alt="arrow-right">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="footer none">
+            <div class="footer-container">
+                <div class="footer-container__elements footer-lists ">
+                    <div class="footer-lists__category footer-category">
+                        <h3 class="footer-category__title footer-title">Shop by Category</h3>
+                        <ul class="footer-category__list footer-list">
+                            <li class="footer-category__list-item footer-item">Skincare</li>
+                            <li class="footer-category__list-item footer-item">Personal Care</li>
+                            <li class="footer-category__list-item footer-item">Handbags</li>
+                            <li class="footer-category__list-item footer-item">Apparels</li>
+                            <li class="footer-category__list-item footer-item">Watches</li>
+                            <li class="footer-category__list-item footer-item">Eye Wear</li>
+                            <li class="footer-category__list-item footer-item">Jewellery</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-lists__about footer-about">
+                        <h3 class="footer-about__title footer-title">About</h3>
+                        <ul class="footer-about__list footer-list">
+                            <li class="footer-about__list-item footer-item">Contact Us</li>
+                            <li class="footer-about__list-item footer-item">About Us</li>
+                            <li class="footer-about__list-item footer-item">Careers</li>
+                            <li class="footer-about__list-item footer-item">Press</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-lists__policy footer-policy">
+                        <h3 class="footer-policy__title footer-title">Policy</h3>
+                        <ul class="footer-policy__list footer-list">
+                            <li class="footer-policy__list-item footer-item">Return Policy</li>
+                            <li class="footer-policy__list-item footer-item">Terms of Use</li>
+                            <li class="footer-policy__list-item footer-item">Sitemap</li>
+                            <li class="footer-policy__list-item footer-item">Security</li>
+                            <li class="footer-policy__list-item footer-item">Privacy</li>
+                            <li class="footer-policy__list-item footer-item">EPR Compliance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-container__elements footer-elements">
+                    <div class="footer-elements__icon">
+                        <img src="./img/footer/fb.svg" alt="facebook">
+                        <img src="./img/footer/insta.svg" alt="instagram">
+                        <img src="./img/footer/twitter.svg" alt="twitter">
+                        <img src="./img/footer/youtube.svg" alt="youtube">
+                    </div>
+                    <div class="footer-elements__location">
+                        <img src="./img/footer/location.svg" alt="location">
+                        <p class="footer-elements__location-paragraph">United States</p>
+                    </div>
+                    <div class="footer-elements__text">
+                        <p class="footer-elements__text-paragraph">© 2021 | Cora Leviene All Rights Reserved</p>
+                    </div>
+                </div>
+
             </div>
+        </footer>
+    </div>
 
-        </div>
-    </footer>
-</div>
-    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
+
 </html>

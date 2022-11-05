@@ -1,5 +1,5 @@
 .collection-container{
-    width: 1280px;
+    max-width: 1280px;
     height: 422px;
     margin: 0 auto;
     background: var(--primary);
@@ -17,6 +17,7 @@
 
 .collection-item__img{
     border-radius: 16px;
+    max-width: 100%;
 }
 
 .collection-container__title{
@@ -48,5 +49,7 @@
     position: absolute;
     top: 233px;
     left: 16px;
+    /* top: calc(100%-233px);
+    left: 50%; */
 }
 

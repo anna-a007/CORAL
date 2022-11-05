@@ -3,20 +3,30 @@
 }
 
 .arrivals-container{
-    width: 1256px;
+    max-width: 1256px;
     height: 475px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
-.card{
+/* .card{
     display: flex;
     gap: 39px;
     margin: 0 auto;
     margin-top: 23.75px;
+} */
+
+.swiper-container{
+    max-width: 1256px;
+    height: 407.71px;
+
+    margin-top: 23.75px;
+    overflow: hidden;
+ 
 }
 
 .card-product{
-    width: 286px;
+    max-width: 286px;
     height: 371px;
 }
 
@@ -32,8 +42,8 @@
 
 .arrivals-data{
     display: flex;
-    gap: 928px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .arrivals-title{
@@ -56,11 +66,13 @@
     position: relative;
 }
 
-.arrivals-link::after{
-    content: url('../../img/new_arrivals/chevron-right.svg');
-    position: absolute;
-    top: 0;
-    left: 60px;
+.arrivals-block{
+    display: flex;
+    column-gap: 8px;
+    margin-right: 28px;
+}
+
+.arrivals-link__img{
     color: var(--dark);
 }
 
@@ -95,4 +107,8 @@
     font-size: 16px;
     line-height: 20px;
     color: var(--type-high-emphasis);
+}
+
+.card-product__img{
+    max-width: 100%;
 }
