@@ -1,8 +1,6 @@
 @media(max-width:1180px){
     .banner-container__info{
-        width: 670px;
         height: 260px;
-        left: 500px;
     }
 
     .info-caption{
@@ -13,7 +11,6 @@
 
     .info-paragraph{
         padding-left: 35px;
-        
     }
 
     .info-link{
@@ -28,37 +25,131 @@
     }
 }
 
-@media(max-width:1030px){
+@media(max-width:1020px){
     .banner-container__info{
-        width: 570px;
-        height: 175px;
-        left: 450px;
+        height: 230px;
     }
 
     .info-caption{
         font-size: 30px;
         line-height: 50px;
+        padding-left: 20px;
     }
     
     .info-paragraph{
-        font-size: 20px;
-        line-height: 25px;
-        width: 400px;
-        height: 67px;
+        padding-left: 20px;
+        font-size: 26px;
+        line-height: 34px;
     }
 
     .info-link{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:860px){
+
+    .banner-container__info{
+        height: 190px;
+    }
+
+    
+    .info-caption{
+        font-size: 26px;
+        line-height: 34px;
+        padding-left: 15px;
+    }
+
+    .info-paragraph{
+        padding-left: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .info-link{
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:750px){
+
+    .banner-container__info{
+        height: 170px;
+    }
+
+    .info-paragraph{
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 25px;
+        height: 60px;
+    }
+}
+
+@media(max-width:670px){
+    .info-link{
+        margin-left: 15px;
+        margin-top: 5px;
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 8px;
+        padding-left: 28px;
+        padding-top: 11px;
+        font-weight: 0;
+        border-radius: 6px;
+    }
+
+    .info-link::before{
+        left: 8%;
+        top: 30%;
+    }
+
+    .banner-container__info{
+        height: 150px;
+        border-radius: 8px;
+    }
+}
+
+@media(max-width:600px){
+    .banner{
         margin-top: 0;
     }
 }
 
-@media(max-width:915px){
+
+@media(max-width:580px){
+
+    .banner-container__image{
+        border-radius: 8px;
+    }
     .info-link{
-    display: none;
+        display: none;
+    }
+
+    .banner-container__info{
+        height: 100px;
+    }
+
+    .info-caption{
+        font-size: 24px;
+        line-height: 26px;
+        padding-left: 10px;
+        width: 135px;
+        padding-top: 4px;
+    }
+
+    .info-paragraph{
+        padding-left: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        width: 230px;
     }
 }
 
-@media(max-width:435px){
+
+@media(max-width:400px){
     .banner-container__image{
         display: none;
     }
@@ -70,5 +161,6 @@
     .banner-container__image-2{
         display: block;
         margin: 0 auto;
+        width: 100%;
     }
 }

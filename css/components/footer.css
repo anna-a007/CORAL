@@ -1,6 +1,6 @@
 .footer{
     width: 1280px;
-    height: 342px;
+    min-height: 342px;
     background: var(--primary);
     margin: 0 auto;
     margin-top: 68px;

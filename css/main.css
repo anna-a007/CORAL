@@ -14,7 +14,10 @@
 @import url('../css/components/adaptive/infostatus-ad.css');
 @import url('../css/components/adaptive/banner-ad.css');
 @import url('../css/components/adaptive/arrivals-ad.css');
-@import url('../css/components/adaptive/collection.css');
+@import url('../css/components/adaptive/collection-ad.css');
+@import url('../css/components/adaptive/brands-ad.css');
+@import url('../css/components/adaptive/preview-ad.css');
+@import url('../css/components/adaptive/footer-ad.css');
 
 
 * {

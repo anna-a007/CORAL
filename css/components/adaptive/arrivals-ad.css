@@ -1,3 +1,92 @@
-@media(max-width:1284px){
+@media(max-width:1040px){
+    .arrivals-container{
+        max-height: 420px;
+    }
+}
+
+@media(max-width:830px){
+    .arrivals-container{
+        max-height: 370px;
+    }
+
+    .swiper-container{
+        max-height: 300px;
+    }
+}
+
+@media(max-width:670px){
+    .description-brand, .description-specification{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .description-price{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .description{
+        gap: 3px;
+    }
+
+    .card-product{
+        min-height: 260px;
+    }
+
+    .swiper-container{
+        max-height: 240px;
+    }
+
+    .arrivals{
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:550px){
+    .arrivals-container{
+        max-height: 360px;
+    }
+
+    .swiper-container{
+        max-height: 280px;
+    }
+}
+
+@media(max-width:450px){
+    .arrivals-container{
+        max-height: 245px;
+    }
+
+    .arrivals{
+        max-height: 270px;
+    }
+
+    .arrivals-block{
+        margin-right: 10px;
+        column-gap: 1px;
+    }
+    
+
+    .arrivals-title{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .arrivals-link{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .arrivals-link__img{
+        width: 19px;
+        height: 19px;
+    }
+
+    .swiper-container{
+        margin-top: 8px;
+        max-height: 240px;
+    }
+
 
 }

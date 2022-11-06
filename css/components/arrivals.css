@@ -9,17 +9,9 @@
     padding: 0 10px;
 }
 
-/* .card{
-    display: flex;
-    gap: 39px;
-    margin: 0 auto;
-    margin-top: 23.75px;
-} */
-
 .swiper-container{
     max-width: 1256px;
-    height: 407.71px;
-
+    height: auto;
     margin-top: 23.75px;
     overflow: hidden;
  
@@ -27,7 +19,7 @@
 
 .card-product{
     max-width: 286px;
-    height: 371px;
+    min-height: 371px;
 }
 
 .card-product__item{

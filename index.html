@@ -74,24 +74,24 @@
 
 
         <main class="main">
-            <section class="infostatus">
+            <section class="infostatus none">
                 <div class="infostatus-container">
                     <p class="infostatus-container__paragraph">We are currently experiencing local customs clearance
                         delays. For the latest updates, please check your order status <a href="#">here</a></p>
                 </div>
             </section>
-            <section class="banner">
+            <section class="banner none">
                 <div class="banner-container">
                     <img class="banner-container__image" src="./img/header/image.jpg" alt="banner">
                     <img class="banner-container__image-2" src="./img/adaptive/funk.jpg" alt="banner">
                     <div class="banner-container__info info">
                         <h2 class="info-caption">Carry your Funk</h2>
-                        <p class="info-paragraph">Trendy handbags collection for your party animal</p>
+                        <p class="info-paragraph">Trendy handbags collection for your <br> party animal</p>
                         <a class="info-link" href="#">See more</a>
                     </div>
                 </div>
             </section>
-            <section class="arrivals">
+            <section class="arrivals none">
                 <div class="arrivals-container">
                     <div class="arrivals-data">
                         <h2 class="arrivals-title">New Arrivals</h2>
@@ -247,7 +247,7 @@
                     </div>
                 </div>
             </section>
-            <section class="collection">
+            <section class="collection none">
                 <div class="collection-container">
                     <h2 class="collection-container__title">Handpicked Collections</h2>
                     <div class="collection-container__item collection-item">
@@ -256,7 +256,7 @@
                                 <p class="collection-item__paragraph">Personal Care</p>
                                 <img class="collection-item__img" src="./img/handpicked_collections/personal_care.jpg"
                                     alt="personal_care">
-                                
+
                             </a>
                         </div>
                         <div class="collection-item__card">
@@ -270,7 +270,7 @@
                             <a class="collection-item__card-link" href="#">
                                 <img class="collection-item__img" src="./img/handpicked_collections/wrist_watches.jpg"
                                     alt="wrist_watches">
-                                <p class="collection-item__paragraph">Wrist watches</p>
+                                <p class="collection-item__paragraph">Wrist Watches</p>
                             </a>
                         </div>
                         <div class="collection-item__card">
@@ -283,44 +283,45 @@
                     </div>
                 </div>
             </section>
-            <section class="brands none">
+            <section class="brand none">
                 <div class="brands-container">
                     <h2 class="brands-container__title">Shop by Brands</h2>
                     <div class="brands-container__item brands-item">
-                        <a class="brands-item__logo" href="#">
-                            <div>
-                                <img class="brands-img" src="./img/shop_brands/Zara.svg" alt="zara">
-                            </div>
-                        </a>
+                        <div class="brands-item__cart">
+                            <a class="brands-item__logo" href="#">
+                                <img class="brands-img" src="./img/shop_brands/zara.jpg" alt="zara">
+                            </a>
+                        </div>
+
 
                         <a class="brands-item__logo" href="#">
                             <div>
-                                <img class="brands-img" src="./img/shop_brands/Dolce_&_Gabbana.svg"
+                                <img class="brands-img" src="./img/shop_brands/Dolce_&_Gabbana.jpg"
                                     alt="Dolce_&_Gabbana">
                             </div>
                         </a>
 
                         <a class="brands-item__logo" href="#">
                             <div>
-                                <img class="brands-img" src="./img/shop_brands/H&M.svg" alt="H&M">
+                                <img class="brands-img" src="./img/shop_brands/H&M.jpg" alt="H&M">
                             </div>
                         </a>
 
                         <a class="brands-item__logo" href="#">
                             <div>
-                                <img class="brands-img" src="./img/shop_brands/Chanel.svg" alt="Chanel">
+                                <img class="brands-img" src="./img/shop_brands/Chanel.jpg" alt="Chanel">
                             </div>
                         </a>
 
                         <a class="brands-item__logo" href="#">
                             <div>
-                                <img class="brands-img" src="./img/shop_brands/Prada.svg" alt="Prada">
+                                <img class="brands-img" src="./img/shop_brands/Prada.jpg" alt="Prada">
                             </div>
                         </a>
 
                         <a class="brands-item__logo" href="#">
                             <div>
-                                <img class="brands-img" src="./img/shop_brands/Biba.svg" alt="Biba">
+                                <img class="brands-img" src="./img/shop_brands/Biba.jpg" alt="Biba">
                             </div>
                         </a>
 
@@ -329,8 +330,9 @@
                     </div>
                 </div>
             </section>
-            <section class="preview none">
+            <section class="preview">
                 <div class="preview-container">
+                    <div class="preview-container__paragraph">Makeup & Skincare</div>
                     <div class="preview-block-1">
                         <a href="#">
                             <img class="preview-image__block-1" src="./img/preview/makeup_accessories.jpg"
@@ -339,27 +341,30 @@
                             <h2 class="preview-block-1__title">Makeup Accessories from Top Brands</h2>
                         </a>
                     </div>
-                    <div class="preview-block-2">
-                        <a href="#">
-                            <img class="preview-image__block-2" src="./img/preview/skincare.jpg" alt="skincare">
-                            <h2 class="preview-block-2__title">Skincare Essentials</h2>
-                            <img class="preview-block-2__arrow" src="./img/preview/arrow-right.svg" alt="arrow-right">
-                        </a>
-                    </div>
-                    <div class="preview-block-3">
-                        <a href="#">
-                            <img class="preview-image__block-3" src="./img/preview/facepacks.jpg" alt="facepacks">
-                            <h2 class="preview-block-3__title">Facepacks & Peels</h2>
-                            <img class="preview-block-3__arrow" src="./img/preview/arrow-right-bl.svg"
-                                alt="arrow-right">
-                        </a>
+                    <div class="preview-common__block">
+                        <div class="preview-block-2">
+                            <a href="#">
+                                <img class="preview-image__block-2" src="./img/preview/skincare.jpg" alt="skincare">
+                                <h2 class="preview-block-2__title">Skincare Essentials</h2>
+                                <img class="preview-block-2__arrow" src="./img/preview/arrow-right.svg"
+                                    alt="arrow-right">
+                            </a>
+                        </div>
+                        <div class="preview-block-3">
+                            <a href="#">
+                                <img class="preview-image__block-3" src="./img/preview/facepacks.jpg" alt="facepacks">
+                                <h2 class="preview-block-3__title">Facepacks & Peels</h2>
+                                <img class="preview-block-3__arrow" src="./img/preview/arrow-right-bl.svg"
+                                    alt="arrow-right">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
 
-        <footer class="footer none">
+        <footer class="footer">
             <div class="footer-container">
                 <div class="footer-container__elements footer-lists ">
                     <div class="footer-lists__category footer-category">
@@ -377,23 +382,23 @@
 
                     <div class="footer-lists__about footer-about">
                         <h3 class="footer-about__title footer-title">About</h3>
-                        <ul class="footer-about__list footer-list">
-                            <li class="footer-about__list-item footer-item">Contact Us</li>
-                            <li class="footer-about__list-item footer-item">About Us</li>
-                            <li class="footer-about__list-item footer-item">Careers</li>
-                            <li class="footer-about__list-item footer-item">Press</li>
+                        <ul class="footer-about__list footer-list f2">
+                            <li class="footer-about__list-item footer-item fi2">Contact Us</li>
+                            <li class="footer-about__list-item footer-item fi2">About Us</li>
+                            <li class="footer-about__list-item footer-item fi2">Careers</li>
+                            <li class="footer-about__list-item footer-item fi2">Press</li>
                         </ul>
                     </div>
 
                     <div class="footer-lists__policy footer-policy">
                         <h3 class="footer-policy__title footer-title">Policy</h3>
-                        <ul class="footer-policy__list footer-list">
-                            <li class="footer-policy__list-item footer-item">Return Policy</li>
-                            <li class="footer-policy__list-item footer-item">Terms of Use</li>
-                            <li class="footer-policy__list-item footer-item">Sitemap</li>
-                            <li class="footer-policy__list-item footer-item">Security</li>
-                            <li class="footer-policy__list-item footer-item">Privacy</li>
-                            <li class="footer-policy__list-item footer-item">EPR Compliance</li>
+                        <ul class="footer-policy__list footer-list f3">
+                            <li class="footer-policy__list-item footer-item fi3">Return Policy</li>
+                            <li class="footer-policy__list-item footer-item fi3">Terms of Use</li>
+                            <li class="footer-policy__list-item footer-item fi3">Sitemap</li>
+                            <li class="footer-policy__list-item footer-item fi3">Security</li>
+                            <li class="footer-policy__list-item footer-item fi3">Privacy</li>
+                            <li class="footer-policy__list-item footer-item fi3">EPR Compliance</li>
                         </ul>
                     </div>
                 </div>

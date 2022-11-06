@@ -1,47 +1,43 @@
 .preview{
   margin: 0 auto;
   margin-top: 68px;
-  width: 1240px;
-  height: 668px;
+  max-width: 1240px;
+  max-height: 670px;
+  padding: 0 5px;
 }
 
 .preview-container{
-  display: grid;
-  grid-template-rows: 400px 228px;
-  grid-template-columns: 604px 604px;
-  grid-template-areas:
-    "preview-block-1 preview-block-1"
-    "preview-block-2 preview-block-3";
-  grid-row-gap: 40px;
-  grid-column-gap: 32px;
-
-  }
-
-.preview-block-1 {
-  grid-area: preview-block-1;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
-  
-.preview-block-2 {
-  grid-area: preview-block-2;
-  position: relative;
+
+.preview-container__paragraph{
+  display: none;
 }
-  
-.preview-block-3 {
-  grid-area: preview-block-3;
-  position: relative;
+
+.preview-common__block{
+  display: flex;
+  column-gap: 32px;
 }
 
 .preview-image__block-1{
-  width: 100%;
+  max-width: 100%;
   border-radius: 24px;
+
 }
 
 .preview-image__block-2, .preview-image__block-3{
   width: 100%;
   height: 100%;
   border-radius: 18px;
+ 
 }
+
+.preview-block-1, .preview-block-2, .preview-block-3 {
+  position: relative;
+}
+
 
 .preview-block-1__paragraph{
   font-family: 'Inter';
@@ -51,8 +47,8 @@
   line-height: 20px;
   color:#97451F;
   position: absolute;
-  top: 109px;
-  left: 38px;
+  top: 27%;
+  left: 3%;
   
 }
 
@@ -64,8 +60,8 @@
   line-height: 68px;
   color:#97451F;
   position: absolute;
-  top: 148px;
-  left: 38px;
+  top: 37%;
+  left: 3%;
   width: 618px;
   height: 136px;
 }
@@ -74,8 +70,8 @@
   width: 309px;
   height: 104px;
   position: absolute;
-  top: 26px;
-  right: 35px;
+  top: 10%;
+  right: 8%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -87,8 +83,8 @@
 
 .preview-block-2__arrow{
   position: absolute;
-  right: 37px;
-  bottom: 26px;
+  right: 8%;
+  bottom: 11%;
 }
 
 .preview-block-3__title{
@@ -102,12 +98,12 @@
   color: var(--primary);
   text-align: end;
   position: absolute;
-  top: 26px;
-  right: 40px;
+  top: 10%;
+  right: 8%;
 }
 
 .preview-block-3__arrow{
   position: absolute;
-  right: 40px;
-  bottom: 26px;
+  right: 8%;
+  bottom: 11%;
 }

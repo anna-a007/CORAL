@@ -30,14 +30,17 @@
     .mobile-header__burger{
         display: block;
         border: none;
+        padding: 0;
         background-color: var(--bright);
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 
     .mobile-header{
         display: flex;
         align-items: center;
         gap: 20px;
+        width: 101px;
+        height: 26px;
     }
 
     .header-container__mobile-icon{

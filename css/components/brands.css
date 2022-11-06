@@ -3,9 +3,10 @@
 }
 
 .brands-container{
-    width: 1239px;
-    height: 236px;
+    max-width: 1239px;
+    min-height: 236px;
     margin: 0 auto;
+    padding: 0 5px;
 }
 
 .brands-container__title{
@@ -23,15 +24,8 @@
     margin-top: 24px;
 }
 
-.brands-item__logo{
-    width: 168px;
-    height: 168px;
-    background: var(--accent);
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.brands-img{
+    width: 100%;
 }
-
 
 

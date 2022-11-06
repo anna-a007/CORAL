@@ -1,3 +1,4 @@
+
 .collection-container{
     max-width: 1280px;
     height: 422px;
@@ -6,9 +7,11 @@
 }
 
 .collection-item{
+    max-width: 1280px;
     display: flex;
     gap: 40px;
     justify-content: center;
+    /* flex-wrap: wrap; */
 }
 
 .collection-item__card{
@@ -47,9 +50,8 @@
     line-height: 32px;
     color: var(--type-high-emphasis);
     position: absolute;
-    top: 233px;
-    left: 16px;
-    /* top: calc(100%-233px);
-    left: 50%; */
+    top: 82%;
+    left: 6%;
+   
 }
 

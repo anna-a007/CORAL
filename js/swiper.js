@@ -12,5 +12,24 @@ const swiper = new Swiper (".swiper-container.swiper-one", {
     autoplay:{
       delay:2500,
       // disableOnIteraction:false,
-    }
+    },
+
+    breakpoints: {
+      320:{
+        slidesPerView: 2.5,
+      },
+
+      540: {
+      slidesPerView: 3.5,
+      spaceBetween: 16,
+          },
+      670: {
+      slidesPerView: 4,
+      // spaceBetween: 10,
+            },
+      // 1000: {
+      // slidesPerView: 4,
+      // // spaceBetween: 10,
+      //       },
+    },
   });

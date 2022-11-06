@@ -1,0 +1,109 @@
+@media(max-width: 980px){
+   .preview-block-1__title{
+    font-size: 49px;
+    line-height: 48px;
+   }
+
+   .preview-block-2__title, .preview-block-3__title{
+    font-size: 34px;
+    line-height: 36px;
+   }
+
+   .preview-block-2__arrow, .preview-block-3__arrow{
+        bottom: 20%;
+        width: 43px;
+        height: 43px;
+   }
+
+    .preview-container{
+        row-gap: 20px;
+    }
+}
+
+@media(max-width: 860px){
+    .preview-block-1__paragraph{
+        font-size: 24px;
+    }
+    .preview-block-1__title{
+        font-size: 27px;
+        line-height: 35px;
+        height: 0;
+        width: 385px;
+    }
+ 
+    .preview-block-2__title, .preview-block-3__title{
+        font-size: 24px;
+        line-height: 26px;
+        width: 150px;
+        height: 0;
+    }
+ 
+    .preview-block-2__arrow, .preview-block-3__arrow{
+        bottom: 25%;
+        width: 37px;
+        height: 37px;
+    }
+
+    .preview-container{
+        row-gap: 16px;
+    }
+ }
+
+ @media(max-width: 860px){
+    .preview-block-2__arrow, .preview-block-3__arrow{
+        bottom: 17%;
+        width: 33px;
+        height: 33px;
+    }
+ }
+
+ 
+ @media(max-width: 610px){
+    .preview-block-2__arrow, .preview-block-3__arrow{
+        bottom: 10%;
+        width: 26px;
+        height: 26px;
+    }
+    
+    
+    .preview-block-2__title, .preview-block-3__title{
+        font-size: 14px;
+        line-height: 16px;
+        width: 83px;
+    }
+
+    .preview-block-1__paragraph{
+        font-size: 10px;
+    }
+
+    .preview-block-1__title{
+        font-size: 16px;
+        line-height: 20px;
+        height: 0;
+        width: 190px;
+        margin-top: 3px;
+    }
+
+    .preview-image__block-1, .preview-image__block-2, .preview-image__block-3{
+        border-radius: 8px;
+    }
+
+    .preview-common__block {
+        column-gap: 16px;
+    }
+
+    .preview-container__paragraph{
+        display: block;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--type-high-emphasis);
+    }
+
+    .preview{
+        margin-top: 30px;
+    }
+}
+
