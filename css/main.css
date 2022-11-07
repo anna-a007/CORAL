@@ -18,6 +18,7 @@
 @import url('../css/components/adaptive/brands-ad.css');
 @import url('../css/components/adaptive/preview-ad.css');
 @import url('../css/components/adaptive/footer-ad.css');
+@import url('../css/components/adaptive/mobile-categories.css');
 
 
 * {
@@ -51,4 +52,6 @@
 .none {
     display: none;
 }
+
+
 

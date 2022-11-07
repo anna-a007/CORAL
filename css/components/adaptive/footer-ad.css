@@ -18,7 +18,7 @@
     }
 }
 
-@media(max-width:540px){
+@media(max-width:553px){
     .footer-lists{
         flex-direction: column;
     }
@@ -38,6 +38,12 @@
         height: 193px;
     }
 
+    .footer-policy{
+        width: 329px;
+        height: 62px;
+        transform: translateY(-23px);
+    }
+
     .footer-about{
         width: 329px;
         height: 62px;
@@ -50,13 +56,108 @@
         gap: 3px;
     }
 
-    .fi2::after{
-        content: '|';
-        margin-left: 3px;
+    .f3{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 349px;
+        height: 36px;
+        row-gap: 0px;
     }
 
-    .fi2:last-child{
-        content: none;
+    .fi2, .fi3{
+        border-right: solid 2px;
+        padding-right: 5px;
+        margin-right: 3px;
     }
 
+    .fi2:last-child, .fi3:last-child{
+        border-right: none;
+    }
+
+    .footer-container{
+        padding-top: 24px;
+        padding-left: 15px;
+        padding-bottom: 0;
+        height: 529px;
+    }
+
+    .fi3-p1{
+        display: none;
+    }
+
+    .fi3-p2{
+        display: block;
+        border-right: solid 2px;
+        padding-right: 5px;
+        margin-right: 3px;
+    }
+
+    .footer-line{
+        display: block;
+        width: 112%;
+        transform: translateY(-35px);
+        color:var(--primary-tint);
+    }
+
+    .footer-elements{
+        transform: translateY(-24px);
+        margin-top: 6px;
+        width: 329px;
+        height: 117px;
+    }
+
+    .footer-elements__text{
+        padding-top: 16px;
+    }
+
+    .footer-mobile{
+        display: block;
+        width: 100%;
+        height: 56px;
+        background-color: white;
+        transform: translateY(34px);
+    }
+
+    .footer-mobile__container{
+        margin: 0 auto;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .footer{
+        height: 682px;
+        margin-top: 25px;
+    }
+
+    .footer-mobile__container-pointer{
+        display: block;
+        width: 100%;
+        height: 48px;
+        background-color: white;
+        margin-top: -1px;
+        
+    }
+
+    .footer-mobile__pointer{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* width: 328px; */
+        height: 24px;
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-mobile__pointer-paragraph{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: var( --type-low-emphasis);
+    }
 }

@@ -1,0 +1,49 @@
+.mobile-categories{
+    margin-top: 25px;    
+}
+
+.mobile-categories-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--type-high-emphasis);
+}
+
+.mobile-categories-top{
+    display: flex;
+    margin-top: 8px;
+    column-gap: 16px;
+}
+
+.mobile-categories__card{
+    width: 60px;
+    height: 82px;
+}
+
+.mobile-categories__card-img{
+    background-color:var(--accent);
+    border-radius: 8px;
+}
+
+.mobile-categories__card-paragraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+@media(min-width:400px){
+    .mobile-categories{
+        display: none;
+    }
+}
+
+@media(max-width:365px){
+    .mobile-categories-top{
+        column-gap: 6px;
+    }
+}
