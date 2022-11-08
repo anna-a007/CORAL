@@ -67,11 +67,10 @@
 
 
 @media(max-width:327px){
-    .collection-container{ 
-        min-height: 720px;
-    }
-
-    .collection{ 
-        height: 720px;
+    .collection-item{
+        gap: 8px;
+        margin-top: 13px;
+        max-height: 379px;
+        width: 328px;
     }
 }

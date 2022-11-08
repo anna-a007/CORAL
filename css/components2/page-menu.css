@@ -1,0 +1,41 @@
+.page-menu{
+    max-width: 1272px;
+    min-height: 1672px;
+    margin-top: 68px;
+    padding-left: 20px;
+}
+
+.page-menu__handbag{
+    display: flex;
+    width: 164px;
+    height: 24px;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.page-menu__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--primary);
+}
+
+.page-menu__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--type-low-emphasis);
+}
+
+.page-menu__nav{
+    width: 286px;
+    height: 597px;
+}
+
+.page-menu__list-item{
+    height: 32px;
+}

@@ -23,7 +23,6 @@
 }
 
 
-
 @media(max-width:580px){
     .brands-img{
         width: 150px;
@@ -55,6 +54,10 @@
         font-size: 14px;
         line-height: 16px;
     } 
+
+    .brands-container{
+        padding-top: 24px;
+    }
 }
 
 @media(max-width:390px){

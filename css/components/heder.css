@@ -2,7 +2,6 @@
     width: 1280px;
     height: 80px;
     margin: 0 auto; 
-  
 }
 
 .header-container{
@@ -14,10 +13,6 @@
     padding-top: 18px;
     padding-bottom: 20px;
     
-}
-
-.header-container__logo{
-    /* margin: 29px 0 29px 20px ; */
 }
 
 .nav-menu{
@@ -53,7 +48,6 @@
     background: var( --grey);
     border-radius: 4px;
     display: flex;
-    
 }
 
 .search-form__button{
