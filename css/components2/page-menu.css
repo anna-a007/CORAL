@@ -5,6 +5,11 @@
     padding-left: 20px;
 }
 
+.page-menu__common{
+    display: flex;
+    column-gap:32px ;
+}
+
 .page-menu__handbag{
     display: flex;
     width: 164px;
@@ -31,11 +36,142 @@
     color: var(--type-low-emphasis);
 }
 
+/*====================page-menu__nav=========================*/
 .page-menu__nav{
+    margin-top: 42px;
     width: 286px;
-    height: 597px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
 }
 
-.page-menu__list-item{
+.page-menu__nav-item{
     height: 32px;
+  
 }
+
+.page-menu__main-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    color: var(--primary);
+    margin-top: 24px;
+}
+
+.page-menu__nav-item{
+    border-bottom: 1px solid var(--light-text);
+    padding-bottom: 16px;
+}
+
+.page-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-item__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark);
+}
+
+/*====================page-menu__nav=========================*/
+
+/*======================menu-card===========================*/
+
+.menu-card{
+    text-decoration: none;
+}
+
+.card-info__common{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-card__product{
+    width: 286px;
+    height: 403px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 7px;
+}
+
+.card-info__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--type-high-emphasis);
+}
+
+.card-info__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--type-low-emphasis);
+}
+
+.menu-card__rating{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.raiting{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--primary);
+}
+
+.card-price{
+    display: flex;
+    gap: 6px;
+}
+
+.card-price__new{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--type-high-emphasis);
+}
+
+.card-price__old{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--type-low-emphasis);
+    text-decoration-line: line-through;
+}
+
+.card-price__sale{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#E21D1D ;
+}
+
+
+
+
+
+
+
+/*======================menu-card===========================*/
