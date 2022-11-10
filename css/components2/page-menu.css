@@ -8,6 +8,7 @@
 .page-menu__common{
     display: flex;
     column-gap:32px ;
+    margin-top: 40px;
 }
 
 .page-menu__handbag{
@@ -38,7 +39,6 @@
 
 /*====================page-menu__nav=========================*/
 .page-menu__nav{
-    margin-top: 42px;
     width: 286px;
     display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@
 
 .menu-card{
     text-decoration: none;
+    /* margin-top: 24px; */
 }
 
 .card-info__common{
@@ -180,6 +181,7 @@
     grid-template-rows: repeat(3, 422px);
     column-gap: 31px;
     row-gap: 87px;
+    /* margin-top: 24px; */
 }
 
 .page-menu__tabs{
@@ -287,7 +289,7 @@
     align-items: center;
     user-select: none;
   }
-  .custom-checkbox+label::before {
+.custom-checkbox+label::before {
     content: '';
     display: inline-block;
     width: 1em;
@@ -300,10 +302,48 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
-  }
+}
 
-  .custom-checkbox:checked+label::before {
+.custom-checkbox:checked+label::before {
     background-image: url("/img/page-menu/checkbox.svg");
     background-size: 18px;
-  }
+}
+
+.sort{
+    width: 271px;
+    height: 56px;
+    margin-left: 646px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+}
+
+.sort-block{
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    height: 56px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 12px;
+    background: var(--grey);
+    border-radius: 4px;
+}
+
+
+.sort-block__paragraph, .sort-paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--type-high-emphasis);
+}
+
+.sort-block__arrow{
+    width: 24px;
+height: 24px;
+}
+
 
