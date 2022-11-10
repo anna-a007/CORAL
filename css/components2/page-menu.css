@@ -346,4 +346,8 @@
 height: 24px;
 }
 
-
+@media(max-width:1267px){
+    .menu-card{
+        grid-template-columns: repeat(2, 286px);
+    }
+}

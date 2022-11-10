@@ -57,6 +57,7 @@
 }
 
 .search-form__input{
+    display: block;
     border: none;
     background: var( --grey);
     font-family: 'Inter';
@@ -64,7 +65,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    width: 362px;
+    text-overflow: ellipsis
+   
 }
 
 .header-container__icon{
