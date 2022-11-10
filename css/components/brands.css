@@ -27,6 +27,11 @@
 
 .brands-img{
     width: 100%;
+    transition: 1s;
+}
+
+.brands-img:hover{
+    transform: scale(1.2);
 }
 
 

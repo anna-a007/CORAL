@@ -65,14 +65,15 @@
     }
 
     .fi2, .fi3{
+    
         border-right: solid 2px;
         padding-right: 5px;
         margin-right: 3px;
     }
-
+/* 
     .fi2:last-child, .fi3:last-child{
         border-right: none;
-    }
+    } */
 
     .footer-container{
         padding-top: 24px;
