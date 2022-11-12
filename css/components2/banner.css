@@ -1,6 +1,6 @@
 .category-page__container{
     max-width: 1240px;
-    height: 400px;
+    max-height: 400px;
     position: relative;
 }
 
@@ -87,5 +87,11 @@
 
     .page-container__info{
         top: 13%;
+    }
+}
+
+@media(max-width:610px){
+    .category-page{
+        display: none;
     }
 }
