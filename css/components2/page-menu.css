@@ -534,6 +534,7 @@
         grid-template-columns: repeat(2, 165px);
         grid-template-rows: repeat(1, 290px);
         margin: 0 auto;
+        column-gap: 20px;
     }
 
     .sort{
@@ -541,7 +542,7 @@
     }
 
     .page-menu__common{
-        width: 400px;
+        max-width: 400px;
         margin: 0 auto;
         padding-top: 20px;
     }
@@ -552,6 +553,12 @@
 
     .page-menu{
         margin-top: 0;
+        padding-left: 3px;
+    }
+
+    .page-menu__block{
+        margin: 0 auto;
+        width: 353px;
     }
 
 
@@ -561,8 +568,7 @@
         justify-content: space-between;
     }
 
-
-
+    .footer-container, .page-menu__tabs, .footer{
+        display: none;
+    }
 }
-
-
