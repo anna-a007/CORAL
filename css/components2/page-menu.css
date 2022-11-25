@@ -568,8 +568,14 @@
         justify-content: space-between;
     }
 
-    .footer-container, .page-menu__tabs, .footer{
+    /* .footer-container, .page-menu__tabs, .footer{
+        display: none;
+    } */
+
+    .page-menu__tabs{
         display: none;
     }
+
+
 
 }

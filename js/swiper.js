@@ -11,7 +11,8 @@ const swiper = new Swiper (".swiper-container.swiper-one", {
     },
     autoplay:{
       delay:2500,
-      // disableOnIteraction:false,
+      disableOnIteraction:false,
+      
     },
 
     breakpoints: {
